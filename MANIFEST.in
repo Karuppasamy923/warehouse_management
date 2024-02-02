@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include invoice *.css
+recursive-include invoice *.csv
+recursive-include invoice *.html
+recursive-include invoice *.ico
+recursive-include invoice *.js
+recursive-include invoice *.json
+recursive-include invoice *.md
+recursive-include invoice *.png
+recursive-include invoice *.py
+recursive-include invoice *.svg
+recursive-include invoice *.txt
+recursive-exclude invoice *.pyc
